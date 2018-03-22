@@ -6,7 +6,7 @@
 数据提供4个字段，user_id：用户ID；brand_id：品牌ID；    
 type：用户对品牌的行为类型（包括点击、购买、加入购物车、收藏 4 种行为(点击：0 购买：1 收藏：2 购物车：3））          
 visit_datetime：行为时间      
-![Alt_text](https://github.com/liwenliang0/Tmall-recommendation-case/raw/master/image/data.png)
+![Alt_text](https://github.com/liwenliang0/Tmall-recommendation-case/raw/master/image/data.png)    
 解题思路:    
 把这个问题转化为分类问题，二分类问题，即要判定某用户购买或未购买某品牌。   
 给大家的数据是已经处理过的数据，在简单分析了数据后，发现数据是从2013-4-15到
